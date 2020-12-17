@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="Index.html">Ming Xin Shen</a>
+          
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="Index.html">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Education
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Education.html">College</a>
+                  <a class="dropdown-item" href="Education.html">Results</a>
+                  <a class="dropdown-item" href="Education.html">Projects</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Work
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Work.html">OpenJaw</a>
+                  <a class="dropdown-item" href="Work.html">Folens Publishers</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Resources.html">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="test.html">Test</a>
+              </li>
+          
+              
+            </ul>
+          </nav>

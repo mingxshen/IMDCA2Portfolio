@@ -1,0 +1,293 @@
+li {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.navbar .a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    /* Remove underline from hyperlinks */
+}
+
+.container-fluid {
+    background-color: white;
+    clear: both;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mb-2 {
+    margin-top: .5rem !important;
+}
+
+.rounded {
+    border-radius: .5rem !important;
+}
+
+.container-fluid {
+    background-image: url("Images/home_BGImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+}
+
+#intro {
+    color: white;
+}
+
+#introDetails {
+    background-color: #343a40;
+    border: 5px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 10%;
+    color: white;
+}
+
+footer {
+    left: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+#CollegeInfo .mb-5 {
+    margin-bottom: 7rem !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: arial;
+}
+
+#TUDublin {
+    float: left;
+}
+
+#StMarksCS {
+    float: right;
+}
+
+#moreCollege {
+    display: none;
+}
+
+#moreSchool {
+    display: none;
+}
+
+#ResultSection {
+    clear: both;
+}
+
+#ResultSection .m-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 4rem;
+}
+
+#year4 {
+    display: inline;
+}
+
+#year3 {
+    display: none;
+}
+
+#year2 {
+    display: none;
+}
+
+#year1 {
+    display: none;
+}
+
+#emailformModel {
+    border-radius: 6px;
+    padding: 14px;
+    width: 100%;
+    clear: both;
+}
+
+#sendbtn {
+    background-color: #17a2b8;
+    color: white;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+#email {
+    width: 50%;
+}
+
+#name {
+    width: 50%;
+}
+
+#emailform {
+    border-radius: 6px;
+    padding: 14px;
+    background-color: #e3f2fd;
+    width: 60%;
+    clear: both;
+}
+
+#contactDetails {
+    float: left;
+}
+
+#socialMedia {
+    float: right;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #343a40;
+    color: white;
+}
+
+#lineBreak {
+    height: 6px;
+    border-width: 0;
+    color: gray;
+    background-color: #343a40;
+    clear: both;
+    width: 80%;
+}
+
+#ProjectSection .m-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 4rem;
+}
+
+#BotApp {
+    display: block;
+}
+
+#TattooApp {
+    display: none;
+}
+
+#HardwareApp {
+    display: none;
+}
+
+.img-fluid {
+    border-radius: 6px;
+    background-color: #17a2b8;
+    padding: 12px;
+}
+
+#projectDetails .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: auto;
+    margin-top: 1.5rem;
+    text-align: left;
+    font-family: arial;
+    padding: 20px;
+}
+
+#OpenJawWork .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: left;
+    font-family: arial;
+}
+
+#OpenJawWork .img {
+    float: left;
+}
+
+#FolensWork .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: left;
+    font-family: arial;
+}
+
+#FolensWork .img {
+    float: left;
+}
+
+#workContent {
+    margin: 3rem;
+}
+
+#featureDetails {
+    background-color: #e3f2fd;
+    border: 5px;
+    border-radius: 8px;
+    width: 90%;
+    margin: 5%;
+    color: black;
+}
+
+#githubURL {
+    border: 5px;
+    border-radius: 8px;
+    width: 90%;
+    margin: 7%;
+    color: black;
+    text-align: left;
+}
+
+#lineBreakResource {
+    height: 6px;
+    border-width: 0;
+    color: gray;
+    background-color: #343a40;
+    clear: both;
+    width: 60%;
+}
+
+#programmingL {
+    display: block;
+}
+
+#tools {
+    display: none;
+}

@@ -1,0 +1,37 @@
+<a class="masthead-brand" href="Index.html">Ming Xin Shen</a>
+
+        <ul class="nav masthead-nav">
+            <li><a href="Index.html">Introduction</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a class="active" href="Work.html">Work</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Resources.html">Resources</a></li>
+            <li><a href="test.html">Test</a></li>
+        </ul>
+
+
+------------------------------------------------------------------
+.masthead-brand {
+    float: left;            /* Make the name logo float left */
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: x-large;
+}
+
+.masthead-nav {
+    float: right;           /* Make the hyperlinks float right */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+a:hover{
+    text-decoration: none;          /* Remove underline from hyperlinks */
+}

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required META tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Import Bootstrap CSS & Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Ming Xin Shen</title>
+
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Ming Xin Shen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Education
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#college">College</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#result">Results</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#skills">Skills</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#project">Projects</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Work
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item js-scroll-trigger" href="Work.html#openjaw">OpenJaw</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Work.html#folens">Folens</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Hobbies.html">Interest</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item js-scroll-trigger" href="Resources.html#GitHub">GitHub</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Resources.html#Features">Features</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Resources.html#Laws">Laws</a>
+                    </div>
+                </li>
+
+            </ul>
+
+            <input class="form-control mr-3" type="search" placeholder="Search" aria-label="Search" style="width: 20%;">
+            <button class="btn my-3" type="submit" style="background-color: #17a2b8;color: white;">Search</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="githubURL" class="mt-5">
+            <a id="GitHub" style="display:none;"></a>
+            <h2>
+                <p>
+                    <label class="mr-3">GitHub URL: </label>
+                    <a class="mx-3 mb-3" href="https://mingxshen.github.io/IMDCA2Portfolio/index.html" target="_blank">
+                    Ming Xin Shen - Portfolio Website</a>
+                </p>
+            </h2>
+        </div>
+
+        <hr id="lineBreakResource">
+
+        <div id="featureDetails">
+            <h2 class="pt-2 pl-3"><strong><a id="Features">Bootstrap Features:</a></strong></h2>
+            <ol>
+                <li style="text-align: left;">1. Model dialog</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> I had added a model dialog to the button "Contact me" on the
+                    <a href="index.html">Home</a> page
+                </p>
+                <li style="text-align: left;">2. Email Form</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> I had created a form for users to contact me by sending me an email
+                </p>
+                <li style="text-align: left;">3. Search box</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> In the navbar, there is a search box provided for the user
+                </p>
+                <li style="text-align: left;">4. Card</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> I used card for the college information and work experiences
+                </p>
+                <li style="text-align: left;">5. Expand content</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> User can extend the content about the college using the ".. more" link
+                </p>
+                <li style="text-align: left;">6. Table</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> I used the striped table to display me results of the modules
+                </p>
+                <li style="text-align: left;">7. Nav pills</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> Result table can be changed to other years using the button that's above the result table
+                </p>
+                <li style="text-align: left;">8. Alert</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> After the "Send" button is clicked, a message will appear at the broswer telling the user the message is send
+                </p>
+                <li style="text-align: left;">9. Dropdown</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> I had created the navbar with dropwdown that links that direct user to a certain part of the web page.
+                </p>
+            </ol>
+            <br />
+        </div>
+
+        <hr id="lineBreakResource">
+
+        <div id="featureDetails">
+            <h2 class="pt-2 pl-3"><strong><a id="Laws">The laws used in this website:</a></strong></h2>
+            <ul>
+                <li style="text-align: left;">Law of Similarity</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> I had used 'Law of Similarity' in the
+                    <a href="Education.html#college" style="color:blue;">
+                        Education
+                    </a> and the
+                    <a href="Work.html#openjaw" style="color:blue;">
+                        Work
+                    </a> page
+                </p>
+                <li style="text-align: left;">Law of Focal Point</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> This law is used for the result table in the
+                    <a href="Education.html#result" style="color:blue;">
+                        Education
+                    </a> page
+                </p>
+                <li style="text-align: left;">Law of Figure/Ground</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> Its used in the
+                    <a href="Contact.html" style="color:blue;">
+                        Contact
+                    </a> page for the message form and
+                    <a href="Contact.html" style="color:blue;">
+                        Home
+                    </a> page for the information about myself.
+                </p>
+                <li style="text-align: left;">Law of Isomorphic Correspondence</li>
+                <p class="ml-5">
+                    <span class="pl-3 mr-3">&#8226;</span> I used this law for search box (position at the top-right corner), form layout, hyperlink (blue text) and images in the <a href="Education.html#college" style="color:blue;">Education</a> and
+                    <a href="Work.html#openjaw" style="color:blue;">
+                        Work
+                    </a> page for the college/school and companies.
+                </p>
+            </ul>
+            <br />
+        </div>
+
+    </div>
+    <br />
+
+
+    <footer class="page-footer font-small fixed-bottom">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Ming Xin Shen - X00144407
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+    <!-- Import jQuery and Bootstrap Bundle (which Popper are included) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

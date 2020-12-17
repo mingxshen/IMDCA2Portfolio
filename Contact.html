@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required META tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Import Bootstrap CSS & Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Ming Xin Shen</title>
+
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Ming Xin Shen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Education
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#college">College</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#result">Results</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#skills">Skills</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item js-scroll-trigger" href="Education.html#project">Projects</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Work
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item js-scroll-trigger" href="Work.html#openjaw">OpenJaw</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Work.html#folens">Folens</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Hobbies.html">Interest</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item js-scroll-trigger" href="Resources.html#GitHub">GitHub</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Resources.html#Features">Features</a>
+                        <a class="dropdown-item js-scroll-trigger" href="Resources.html#Laws">Laws</a>
+                    </div>
+                </li>
+
+            </ul>
+
+            <input class="form-control mr-3" type="search" placeholder="Search" aria-label="Search" style="width: 20%;">
+            <button class="btn my-3" type="submit" style="background-color: #17a2b8;color: white;">Search</button>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="contactDetails" class="mt-5">
+            <p>
+                <label class="mr-3">Name: </label><a href="mailto:mingxinshen6543@gmail.com">Ming Xin Shen</a>
+            </p>
+            <p>
+                <label class="mr-3">Email: </label><a href="mailto:mingxinshen6543@gmail.com" style="color: blue">mingxinshen6543@gmail.com</a>
+            </p>
+            <p>
+                <label class="mr-3">Phone Number: </label><a href="tel:+353-87-986-4684" style="color: blue">0879864684</a>
+            </p>
+        </div>
+
+        <div id="socialMedia" class="mt-5">
+            <a href="https://www.facebook.com/" class="fa fa-facebook p-3" target="_blank "></a>
+            <a href="https://www.linkedin.com/in/mingxinshen/" class="fa fa-linkedin p-3" target="_blank "></a>
+            <a href="https://github.com/mingxshen" class="fa fa-github p-3" target="_blank "></a>
+        </div>
+
+        <div id="emailform" class="mb-5">
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" class="form-control" id="name" name="name" placeholder="John..."><br>
+                <label for="email">Email:<span class="required" style="color:red;">*</span></label><br>
+                <!--input type="text" id="lname" name="lname" placeholder="John@gmail.com ..."-->
+                <input type="email" class="form-control" id="email" name="email" placeholder="johnsmith@gmail.com ..."><br><br>
+                <label for="message">Message:<span class="required" style="color:red;">*</span></label><br>
+                <textarea id="emailtext" class="form-control" rows="6" placeholder="Hi Ming, ....">
+
+            </textarea><br><br><br>
+                <button id="sendbtn" onclick="displayEmailSend()">Send</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+    <footer class="page-footer font-small fixed-bottom">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Ming Xin Shen - X00144407
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+    <script>
+        function displayEmailSend() {
+            var send = document.getElementsByTagName("form");
+            alert("Message is send! Ming will reply back as soon as possible.");
+        }
+    </script>
+
+    <!--Import jQuery and Bootstrap Bundle (which Popper are included) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
